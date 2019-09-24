@@ -1,0 +1,19 @@
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190923-97737-74g4km.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190923-97737-1v4indo/byebug
