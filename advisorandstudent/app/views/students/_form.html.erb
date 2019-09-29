@@ -21,6 +21,11 @@
     <%= form.text_field :advisor_id %>
   </div>
 
+  <div class="field">
+    <%= form.label :advisor_id %>
+    <%= form.collection_select :advisor_id, Advisor.all, :id, :name %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

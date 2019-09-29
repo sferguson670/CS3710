@@ -5,5 +5,11 @@
   <%= @advisor.name %>
 </p>
 
+<ol>
+  <% @advisor.students.each do |student| %>
+    <li> <%= student.name %>
+  <% end %>
+</ol>
+
 <%= link_to 'Edit', edit_advisor_path(@advisor) %> |
 <%= link_to 'Back', advisors_path %>
