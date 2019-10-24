@@ -1,0 +1,15 @@
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190923-97737-9g31py.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/sarahdee/Git/CS3710/advisorandstudent/vendor/bundle/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190923-97737-rqy1u2/bootsnap
